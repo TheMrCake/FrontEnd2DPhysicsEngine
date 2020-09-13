@@ -44,7 +44,8 @@ public class ToolsFrame extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Tools");
 
         jButton2.setText("jButton2");
         jButton2.setMaximumSize(new java.awt.Dimension(25, 25));
